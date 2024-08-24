@@ -1,0 +1,152 @@
+/* Thiết lập chung */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ecef;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #97dcf1, #97dcf1);
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-shadow: 5px 5px violet;
+}
+
+header p {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+header:hover{
+    color: rgb(8, 65, 119);
+}
+
+/* Navigation */
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background: #959697;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #007bff;
+}
+
+/* Sections */
+section {
+    padding: 40px 20px;
+    margin: 30px auto;
+    width: 90%;
+    max-width: 1000px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    color: #343a40;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 10px;
+}
+
+/* Layout cho phần "Về Tôi" */
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.content p{
+    font-size: 25px;
+}
+
+.text {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+    flex: 1;
+}
+
+.image {
+    flex: 1;
+    text-align: center;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: 5px solid #007bff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.image img:hover {
+    transform: scale(1.05);
+}
+
+/* Danh sách kỹ năng và ước mơ */
+section ul {
+    list-style: none;
+    padding: 0;
+}
+
+section ul li {
+    background: #f8f9fa;
+    margin-bottom: 10px;
+    padding: 15px;
+    border-left: 5px solid #007bff;
+    transition: background 0.3s ease;
+    border-radius: 5px;
+    font-size: 25px;
+}
+
+section ul li:hover {
+    background: #e9ecef;
+}
+.contact h2,p{
+    font-size: 25px;
+}
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #343a40;
+    color: #fff;
+    margin-top: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-size: 50px;
+}
